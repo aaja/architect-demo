@@ -1,7 +1,7 @@
 # architect-demo
 Some of my learning experience after work
 
-:notebook:**基础知识**
+:notebook:**基础知识**：[多线程](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):cat2: | [JVM](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):cat2: | [操作系统](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):cat2: | [网络](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):cat2: | [MongoDB](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):cat2: | [设计模式](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):cat2: | [UML](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):cat2: | [JMM](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):cat2:
 
 :notebook:**分布式篇**
 
