@@ -14,3 +14,5 @@ Some of my learning experience after work
 :notebook:**数据库篇**：[MySQL](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):cat2: | [Oracle](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):cat2: | [ElasticSearch](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):cat2: | [MongoDB](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):cat2:
 
 :notebook:**大数据篇**：[Kafka](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):key: | [Flink](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):key:
+
+努力做一个高尚纯粹，不甘平庸的人
