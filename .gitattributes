@@ -1,0 +1,4 @@
+*.css linguist-language=java
+*.md linguist-language=java
+*.java linguist-language=java
+*.go linguist-language=go
