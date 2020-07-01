@@ -15,4 +15,10 @@ Some of my learning experience after work
 
 :notebook:**大数据篇**：[Kafka](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):key: | [Flink](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):key:
 
+Learn some other programming languages after work
+
+:notebook:""编程语言""：[JAVA](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):house_with_garden: | [JAVASCRIPT](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):house_with_garden: | [HTML](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):house_with_garden: | [CSS](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):house_with_garden: | [PYTHON](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):house_with_garden: | [GO](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):house_with_garden: 
+
+:notebook:""了解篇""：[VUE](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):rocket: | [ELEMENT](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):rocket: | [REACT](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):rocket: | [ES6](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis):rocket:
+
 努力做一个高尚纯粹，不甘平庸的人
