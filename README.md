@@ -1,5 +1,6 @@
 # architect-demo
 Some of my learning experience after work
+![](https://aaja.com/docs/demo_images20200701131011.png)
 
 :notebook:**基础知识**：[多线程](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis) | [JVM](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis) | [操作系统](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis) | [网络](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis) | [设计模式](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis) | [UML](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis) | [JMM](https://github.com/aaja/architect-demo/tree/master/docs/demo_03_important/01_redis)
 
