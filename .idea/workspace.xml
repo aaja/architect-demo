@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d393194c-f25b-410c-80e3-ac3e0ef54a60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/demo_03_important/01_redis/redis01_基础数据结构.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/demo_03_important/01_redis/test.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/demo_images/102936wj7psq65j57psnn3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +43,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593526742348</updated>
-      <workItem from="1593526745068" duration="3714000" />
+      <workItem from="1593526745068" duration="4368000" />
     </task>
+    <task id="LOCAL-00001" summary="init redis01_基础数据结构.md">
+      <created>1593531744469</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593531744469</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -52,11 +60,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init redis01_基础数据结构.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="init redis01_基础数据结构.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593527144957">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1593531743141">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="477" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1593527144957" />
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1593531743141" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1593531747373">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1593531747373" />
+    <state x="477" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593579853886">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="477" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1593579853886" />
   </component>
 </project>
