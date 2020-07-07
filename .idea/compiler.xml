@@ -6,7 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="architect-demo" />
+        <module name="flink-demo" />
+        <module name="druid-demo" />
+        <module name="code" />
+        <module name="elasticsearch-demo" />
+        <module name="zookeeper-demo" />
+        <module name="logstash-demo" />
+        <module name="mysql-demo" />
+        <module name="jmx-demo" />
+        <module name="kafka-demo" />
+        <module name="elementui-demo" />
+        <module name="vue-demo" />
+        <module name="skywalking-demo" />
+        <module name="filebeat-demo" />
       </profile>
     </annotationProcessing>
   </component>

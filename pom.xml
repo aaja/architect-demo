@@ -6,7 +6,24 @@
 
     <groupId>org.example</groupId>
     <artifactId>architect-demo</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>code</module>
+        <module>kafka-demo</module>
+        <module>code/kafka-demo</module>
+        <module>code/zookeeper-demo</module>
+        <module>code/flink-demo</module>
+        <module>code/jmx-demo</module>
+        <module>code/elasticsearch-demo</module>
+        <module>code/skywalking-demo</module>
+        <module>code/druid-demo</module>
+        <module>code/filebeat-demo</module>
+        <module>code/logstash-demo</module>
+        <module>code/mysql-demo</module>
+        <module>code/vue-demo</module>
+        <module>code/elementui-demo</module>
+    </modules>
 
 
 </project>
