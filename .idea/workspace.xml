@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d393194c-f25b-410c-80e3-ac3e0ef54a60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/demo_03_important/01_redis/test.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/demo_images/102936wj7psq65j57psnn3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +29,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../idea-workspace-swordcloud/jkpt1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/demo_images" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\idea-workspace-personal\architect-demo\docs\demo_01_basics\basic_01_thread" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -44,6 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593526742348</updated>
       <workItem from="1593526745068" duration="4368000" />
+      <workItem from="1594038226987" duration="2047000" />
     </task>
     <task id="LOCAL-00001" summary="init redis01_基础数据结构.md">
       <created>1593531744469</created>
@@ -52,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593531744469</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="创建线程的几种方式">
+      <created>1594038428719</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594038428720</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -61,20 +72,21 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init redis01_基础数据结构.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="init redis01_基础数据结构.md" />
+    <MESSAGE value="创建线程的几种方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建线程的几种方式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1593531743141">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1594038427081">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1593531743141" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1593531747373">
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1594038427081" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1594038431346">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1593531747373" />
-    <state x="477" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593579853886">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1594038431346" />
+    <state x="477" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594125995719">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="477" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1593579853886" />
+    <state x="477" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1594125995719" />
   </component>
 </project>
