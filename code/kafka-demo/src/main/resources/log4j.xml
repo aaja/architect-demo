@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/"
+					 debug="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					 xsi:schemaLocation="http://jakarta.apache.org/log4j/ ">
+
+	<appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.out"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{ABSOLUTE} %4p [%c{1}] %m%n"/>
+		</layout>
+	</appender>
+
+	<logger name="com.aaja" additivity="false">
+		<level value="DEBUG"/>
+		<appender-ref ref="CONSOLE"/>
+	</logger>
+	<logger name="org.quartz" additivity="false">
+		<level value="ERROR"/>
+		<appender-ref ref="CONSOLE"/>
+	</logger>
+	<logger name="com.mchange" additivity="false">
+		<level value="ERROR"/>
+		<appender-ref ref="CONSOLE"/>
+	</logger>
+
+	<root>
+		<priority value="DEBUG"/>
+		<appender-ref ref="CONSOLE"/>
+	</root>
+</log4j:configuration>
