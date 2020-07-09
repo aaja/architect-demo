@@ -10,6 +10,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <properties>
+        <es.version>6.5.4</es.version>
+    </properties>
+
     <artifactId>kafka-demo</artifactId>
     <build>
         <plugins>
@@ -38,5 +42,26 @@
             <version>1.2.17</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.aaja</groupId>
+            <artifactId>elasticsearch-demo</artifactId>
+
+        </dependency>
+
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+            <version>${es.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
+            <version>${es.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch-x-content</artifactId>
+            <version>${es.version}</version>
+        </dependency>
     </dependencies>
 </project>
