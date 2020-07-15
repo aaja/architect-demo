@@ -45,7 +45,7 @@
         <dependency>
             <groupId>com.aaja</groupId>
             <artifactId>elasticsearch-demo</artifactId>
-
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
@@ -62,6 +62,12 @@
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch-x-content</artifactId>
             <version>${es.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aaja</groupId>
+            <artifactId>elasticsearch-demo</artifactId>
+            <version>1.0.0</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>

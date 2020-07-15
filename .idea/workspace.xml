@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d393194c-f25b-410c-80e3-ac3e0ef54a60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/druid-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/elasticsearch-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/elementui-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/filebeat-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/flink-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/jmx-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/kafka-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/logstash-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/mysql-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/skywalking-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/vue-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/zookeeper-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/vue-3.0/01_webpack打包后,index.html出现空白页.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/componetes-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/elasticsearch-demo/src/main/java/com/aaja/es/util/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/elasticsearch-demo/src/main/java/com/aaja/es/util/ElasticSearchClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/elasticsearch-demo/src/main/java/com/aaja/es/util/EsConfigUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/elasticsearch-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/elasticsearch-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/kafka-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/kafka-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/kafka-demo/src/main/java/com/aaja/kafka/core/KafkaTopicFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/kafka-demo/src/main/java/com/aaja/kafka/core/KafkaTopicFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +19,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven\outerNetMaven\apache-maven-3.6.2-bin\repository" />
+        <option name="mavenHome" value="E:/maven/outerNetMaven/apache-maven-3.6.2-bin/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="E:\maven\outerNetMaven\apache-maven-3.6.2-bin\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1e2jmn96ree7pspgkkFeiadBC5K" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -45,12 +60,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/demo_images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../myblog-picture" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.29037037" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aaja.kafka.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\idea-workspace-personal\architect-demo\code\elasticsearch-demo\src\main\java\com\aaja\es\util" />
+      <recent name="E:\workspace\idea-workspace-personal\architect-demo\code\kafka-demo\src\main\java\com\aaja\kafka\core" />
+      <recent name="E:\workspace\idea-workspace-personal\architect-demo\code\kafka-demo\src\main\resources" />
+      <recent name="E:\workspace\idea-workspace-personal\architect-demo\code\kafka-demo\src\main\java\com\aaja\kafka\demo" />
       <recent name="E:\workspace\idea-workspace-personal\architect-demo\docs\demo_images" />
-      <recent name="E:\workspace\idea-workspace-personal\architect-demo\docs\demo_01_basics\basic_01_thread" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -64,7 +89,9 @@
       <option name="presentableId" value="Default" />
       <updated>1593526742348</updated>
       <workItem from="1593526745068" duration="4368000" />
-      <workItem from="1594038226987" duration="4475000" />
+      <workItem from="1594038226987" duration="6629000" />
+      <workItem from="1594219977259" duration="16058000" />
+      <workItem from="1594744120893" duration="1186000" />
     </task>
     <task id="LOCAL-00001" summary="init redis01_基础数据结构.md">
       <created>1593531744469</created>
@@ -87,7 +114,28 @@
       <option name="project" value="LOCAL" />
       <updated>1594126014114</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init demo code">
+      <created>1594146925988</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594146925988</updated>
+    </task>
+    <task id="LOCAL-00005" summary="kafka总结">
+      <created>1594223178328</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594223178328</updated>
+    </task>
+    <task id="LOCAL-00006" summary="kafka 基本使用总结">
+      <created>1594299934216</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594299934216</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,24 +145,71 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init redis01_基础数据结构.md" />
     <MESSAGE value="创建线程的几种方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建线程的几种方式" />
+    <MESSAGE value="init demo code" />
+    <MESSAGE value="kafka总结" />
+    <MESSAGE value="kafka 基本使用总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="kafka 基本使用总结" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1594126012026">
+    <state x="275" y="30" key="#Project_Structure" timestamp="1594221161453">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1594126012026" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1594126016977">
+    <state x="275" y="30" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1594221161452" />
+    <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594222212187">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1594126016977" />
+    <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1594222212187" />
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1594789734326">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1594789734326" />
+    <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1594570391594">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="299" y="130" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1594570391594" />
+    <state width="1323" height="66" key="GridCell.Tab.0.bottom" timestamp="1594743912310">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="66" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1594743912310" />
+    <state width="1323" height="66" key="GridCell.Tab.0.center" timestamp="1594743912310">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="66" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1594743912310" />
+    <state width="1323" height="66" key="GridCell.Tab.0.left" timestamp="1594743912310">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="66" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1594743912310" />
+    <state width="1323" height="66" key="GridCell.Tab.0.right" timestamp="1594743912310">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="66" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1594743912310" />
+    <state x="213" y="27" key="Maven.ArtifactSearchDialog" timestamp="1594279653029">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="213" y="27" key="Maven.ArtifactSearchDialog/0.0.1366.738@0.0.1366.738" timestamp="1594279653029" />
+    <state x="125" y="28" key="SettingsEditor" timestamp="1594357900847">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="125" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594357900847" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1594299939941">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1594299939941" />
+    <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1594219977245">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1594219977245" />
     <state x="477" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594125995719">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="477" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1594125995719" />
-    <state x="115" y="69" key="new project wizard" timestamp="1594146890169">
+    <state x="115" y="69" key="new project wizard" timestamp="1594170370897">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="115" y="69" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1594146890169" />
+    <state x="115" y="69" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1594170370897" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1594789602468">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1594789602468" />
   </component>
 </project>
