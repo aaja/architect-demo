@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d393194c-f25b-410c-80e3-ac3e0ef54a60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jdk/jdk8/Jdk8中Stream的性能问题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/jdk8/Jdk8新特性.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/jdk8/jdk8中的HashMap源码分析1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/jdk8/jdk8中的HashMap源码分析2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/jdk8/jdk8中的HashMap知多少.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdk/jdk8/jdk8中的HashMap面试指南.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk/jdk9/jdk9新特性.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/kafka-demo/src/main/java/com/aaja/kafka/demo/TestProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/kafka-demo/src/main/java/com/aaja/kafka/demo/TestProducer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/demo_02_distributed/dis_01_basic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jdk/jdk9" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.29037037" />
@@ -68,11 +62,11 @@
       <recent name="com.aaja.kafka.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\idea-workspace-personal\architect-demo\jdk\jdk9" />
       <recent name="E:\workspace\idea-workspace-personal\architect-demo\docs\demo_02_distributed\dis_01_basic" />
       <recent name="E:\workspace\idea-workspace-personal\architect-demo\code\elasticsearch-demo\src\main\java\com\aaja\es\util" />
       <recent name="E:\workspace\idea-workspace-personal\architect-demo\code\kafka-demo\src\main\java\com\aaja\kafka\core" />
       <recent name="E:\workspace\idea-workspace-personal\architect-demo\code\kafka-demo\src\main\resources" />
-      <recent name="E:\workspace\idea-workspace-personal\architect-demo\code\kafka-demo\src\main\java\com\aaja\kafka\demo" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -88,7 +82,7 @@
       <workItem from="1593526745068" duration="4368000" />
       <workItem from="1594038226987" duration="6629000" />
       <workItem from="1594219977259" duration="16058000" />
-      <workItem from="1594744120893" duration="7556000" />
+      <workItem from="1594744120893" duration="9175000" />
     </task>
     <task id="LOCAL-00001" summary="init redis01_基础数据结构.md">
       <created>1593531744469</created>
@@ -146,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595087447216</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="java8工作总结">
+      <created>1595160943037</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595160943037</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +162,8 @@
     <MESSAGE value="kafka 基本使用总结" />
     <MESSAGE value="vue打包出现空白的index.html解决办法" />
     <MESSAGE value="分布式CAP定律" />
-    <option name="LAST_COMMIT_MESSAGE" value="分布式CAP定律" />
+    <MESSAGE value="java8工作总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="java8工作总结" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="30" key="#Project_Structure" timestamp="1594221161453">
@@ -172,10 +174,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1594222212187" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1595087443780">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1595160938488">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1595087443780" />
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1595160938488" />
     <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1594570391594">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -204,10 +206,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="125" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594357900847" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1595087451018">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1595160945545">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1595087451018" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1595160945545" />
     <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1594219977245">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
