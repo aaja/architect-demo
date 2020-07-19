@@ -3,6 +3,7 @@ package com.aaja.kafka.demo;
 import com.aaja.kafka.core.TransferChannelEntrance;
 
 import java.io.IOException;
+import java.util.HashMap;
 
 /**
  * <p>Title: TestProducer</p>
@@ -14,6 +15,7 @@ import java.io.IOException;
 public class TestProducer {
 
     public static void main(String[] args) {
+        new HashMap<String, String>();
         final String topic = "test_topic";
         String value = "test data ...";
         try {

@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d393194c-f25b-410c-80e3-ac3e0ef54a60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/demo_02_distributed/dis_01_basic/01_分布式基础_分布式系统的CAP理论.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk/jdk8/Jdk8中Stream的性能问题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk/jdk8/Jdk8新特性.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk/jdk8/jdk8中的HashMap源码分析1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk/jdk8/jdk8中的HashMap源码分析2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk/jdk8/jdk8中的HashMap知多少.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdk/jdk8/jdk8中的HashMap面试指南.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/kafka-demo/src/main/java/com/aaja/kafka/demo/TestProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/kafka-demo/src/main/java/com/aaja/kafka/demo/TestProducer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +88,7 @@
       <workItem from="1593526745068" duration="4368000" />
       <workItem from="1594038226987" duration="6629000" />
       <workItem from="1594219977259" duration="16058000" />
-      <workItem from="1594744120893" duration="3619000" />
+      <workItem from="1594744120893" duration="7556000" />
     </task>
     <task id="LOCAL-00001" summary="init redis01_基础数据结构.md">
       <created>1593531744469</created>
@@ -133,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594789791707</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="分布式CAP定律">
+      <created>1595087447216</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595087447216</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +160,8 @@
     <MESSAGE value="kafka总结" />
     <MESSAGE value="kafka 基本使用总结" />
     <MESSAGE value="vue打包出现空白的index.html解决办法" />
-    <option name="LAST_COMMIT_MESSAGE" value="vue打包出现空白的index.html解决办法" />
+    <MESSAGE value="分布式CAP定律" />
+    <option name="LAST_COMMIT_MESSAGE" value="分布式CAP定律" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="30" key="#Project_Structure" timestamp="1594221161453">
@@ -158,10 +172,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1594222212187" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1594789787731">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1595087443780">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1594789787731" />
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1595087443780" />
     <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1594570391594">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -190,10 +204,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="125" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594357900847" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1594789795906">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1595087451018">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1594789795906" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1595087451018" />
     <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1594219977245">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
