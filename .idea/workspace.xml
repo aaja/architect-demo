@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d393194c-f25b-410c-80e3-ac3e0ef54a60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jdk/jdk7及以下/jdk1.7特性.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jdk/jdk7及以下" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/algorithm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.29037037" />
@@ -82,7 +81,7 @@
       <workItem from="1593526745068" duration="4368000" />
       <workItem from="1594038226987" duration="6629000" />
       <workItem from="1594219977259" duration="16058000" />
-      <workItem from="1594744120893" duration="14210000" />
+      <workItem from="1594744120893" duration="14720000" />
     </task>
     <task id="LOCAL-00001" summary="init redis01_基础数据结构.md">
       <created>1593531744469</created>
@@ -168,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595212755076</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="jdk1.7总结">
+      <created>1595260237446</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1595260237446</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +193,8 @@
     <MESSAGE value="java9学习" />
     <MESSAGE value="element总结" />
     <MESSAGE value="jdk" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdk" />
+    <MESSAGE value="jdk1.7总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdk1.7总结" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="30" key="#Project_Structure" timestamp="1594221161453">
@@ -198,10 +205,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1594222212187" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1595212752535">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1595260234723">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1595212752535" />
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1595260234723" />
     <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1594570391594">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -230,10 +237,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="125" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594357900847" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1595212758065">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1595260241705">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1595212758065" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1595260241704" />
     <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1594219977245">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
