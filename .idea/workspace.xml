@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d393194c-f25b-410c-80e3-ac3e0ef54a60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/jdk-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/jdk-demo/src/main/java/com/aaja/demo/ArraysAsList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linux/centos/02_Linux文件系统too_many_open_files.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linux/centos/01_Linux文件系统及文件系统删除原理.md" beforeDir="false" afterPath="$PROJECT_DIR$/linux/centos/01_Linux文件系统及文件系统删除原理.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demoCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/code/jdk-demo/src/main/java/com/aaja/demo" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.29037037" />
@@ -107,7 +101,7 @@
       <workItem from="1593526745068" duration="4368000" />
       <workItem from="1594038226987" duration="6629000" />
       <workItem from="1594219977259" duration="16058000" />
-      <workItem from="1594744120893" duration="27876000" />
+      <workItem from="1594744120893" duration="28394000" />
     </task>
     <task id="LOCAL-00001" summary="init redis01_基础数据结构.md">
       <created>1593531744469</created>
@@ -221,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595347423773</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Arrays.asList()转化的List和ArrayList的本质区别">
+      <created>1595511899461</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1595511899461</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +244,8 @@
     <MESSAGE value="jdk1.7总结" />
     <MESSAGE value="常用排序算法" />
     <MESSAGE value="linux总结" />
-    <option name="LAST_COMMIT_MESSAGE" value="linux总结" />
+    <MESSAGE value="Arrays.asList()转化的List和ArrayList的本质区别" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays.asList()转化的List和ArrayList的本质区别" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="30" key="#Project_Structure" timestamp="1594221161453">
@@ -254,10 +256,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1594222212187" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1595347421813">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1595511896453">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1595347421813" />
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1595511896453" />
     <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1595425103616">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
