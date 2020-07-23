@@ -28,6 +28,7 @@
         <module>code/vue-demo</module>
         <module>code/elementui-demo</module>
         <module>code/componetes-demo</module>
+        <module>code/jdk-demo</module>
     </modules>
 
     <dependencies>

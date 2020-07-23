@@ -17,6 +17,7 @@
         <module name="logstash-demo" />
         <module name="vue-demo" />
         <module name="filebeat-demo" />
+        <module name="jdk-demo" />
         <module name="flink-demo" />
         <module name="elementui-demo" />
         <module name="jmx-demo" />

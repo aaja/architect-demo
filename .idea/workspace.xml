@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d393194c-f25b-410c-80e3-ac3e0ef54a60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/MySQL/MySQL中的几种日志详解.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linux/Ubuntu/01_Ubuntu学习笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linux/centos/01_Linux文件系统及文件系统删除原理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/jdk-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/jdk-demo/src/main/java/com/aaja/demo/ArraysAsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/centos/02_Linux文件系统too_many_open_files.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/centos/01_Linux文件系统及文件系统删除原理.md" beforeDir="false" afterPath="$PROJECT_DIR$/linux/centos/01_Linux文件系统及文件系统删除原理.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/algorithm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demoCode" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.29037037" />
@@ -71,6 +74,26 @@
       <recent name="E:\workspace\idea-workspace-personal\architect-demo\jdk\jdk12" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="ArraysAsList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aaja.demo.ArraysAsList" />
+      <module name="jdk-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aaja.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ArraysAsList" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -84,7 +107,7 @@
       <workItem from="1593526745068" duration="4368000" />
       <workItem from="1594038226987" duration="6629000" />
       <workItem from="1594219977259" duration="16058000" />
-      <workItem from="1594744120893" duration="18974000" />
+      <workItem from="1594744120893" duration="27876000" />
     </task>
     <task id="LOCAL-00001" summary="init redis01_基础数据结构.md">
       <created>1593531744469</created>
@@ -191,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595261830964</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="linux总结">
+      <created>1595347423773</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1595347423773</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +242,8 @@
     <MESSAGE value="jdk" />
     <MESSAGE value="jdk1.7总结" />
     <MESSAGE value="常用排序算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="常用排序算法" />
+    <MESSAGE value="linux总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="linux总结" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="30" key="#Project_Structure" timestamp="1594221161453">
@@ -223,30 +254,30 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1594222212187" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1595261828641">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1595347421813">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1595261828641" />
-    <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1594570391594">
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1595347421813" />
+    <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1595425103616">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="299" y="130" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1594570391594" />
-    <state width="1323" height="66" key="GridCell.Tab.0.bottom" timestamp="1594743912310">
+    <state x="299" y="130" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1595425103616" />
+    <state width="1323" height="205" key="GridCell.Tab.0.bottom" timestamp="1595511759157">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="66" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1594743912310" />
-    <state width="1323" height="66" key="GridCell.Tab.0.center" timestamp="1594743912310">
+    <state width="1323" height="205" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1595511759157" />
+    <state width="1323" height="205" key="GridCell.Tab.0.center" timestamp="1595511759157">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="66" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1594743912310" />
-    <state width="1323" height="66" key="GridCell.Tab.0.left" timestamp="1594743912310">
+    <state width="1323" height="205" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1595511759157" />
+    <state width="1323" height="205" key="GridCell.Tab.0.left" timestamp="1595511759157">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="66" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1594743912310" />
-    <state width="1323" height="66" key="GridCell.Tab.0.right" timestamp="1594743912310">
+    <state width="1323" height="205" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1595511759157" />
+    <state width="1323" height="205" key="GridCell.Tab.0.right" timestamp="1595511759157">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="66" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1594743912310" />
+    <state width="1323" height="205" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1595511759157" />
     <state x="213" y="27" key="Maven.ArtifactSearchDialog" timestamp="1594279653029">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -255,10 +286,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="125" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594357900847" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1595261833934">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1595347426293">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1595261833934" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1595347426293" />
     <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1594219977245">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -267,10 +298,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="477" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1594125995719" />
-    <state x="115" y="69" key="new project wizard" timestamp="1594170370897">
+    <state x="370" y="124" width="626" height="490" key="find.popup" timestamp="1595511723288">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="115" y="69" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1594170370897" />
+    <state x="370" y="124" width="626" height="490" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1595511723288" />
+    <state x="115" y="0" key="new project wizard" timestamp="1595492641775">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="115" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1595492641775" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1594789602468">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
