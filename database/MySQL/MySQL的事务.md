@@ -70,12 +70,12 @@ MYSQL传统关系数据库的ACID模型有以下特性
 
 #### **3.3 不同隔离级别解决的事务并发问题**
 
-| **并发问题**  **事务隔离级别** | **脏读** | **不可重复读** | **幻读** |
-| ------------------------------ | -------- | -------------- | -------- |
-| **读未提交**                   | **Y**    | **Y**          | **Y**    |
-| **读已提交**                   | N        | **Y**          | **Y**    |
-| **可重复读**                   | N        | N              | **Y**    |
-| **串行化**                     | N        | N              | N        |
+| **并发问题**  **事务隔离级别** | 丢失更新 | **脏读** | **不可重复读** | **幻读** |
+| ------------------------------ | -------- | -------- | -------------- | -------- |
+| **读未提交**                   | N        | **Y**    | **Y**          | **Y**    |
+| **读已提交**                   | N        | N        | **Y**          | **Y**    |
+| **可重复读**                   | N        | N        | N              | **Y**    |
+| **串行化**                     | N        | N        | N              | N        |
 
 **丢失更新：悲观锁、乐观锁；**
 
@@ -88,7 +88,7 @@ MYSQL传统关系数据库的ACID模型有以下特性
 
 下面就逐一介绍其实现原理
 
-#### 原子性（Atomicity）原理
+#### 4.1 原子性（Atomicity）原理
 
 一个事务必须被视为不可分割的最小工作单位，一个事务中的所有操作要么全部成功提交，要么全部失败回滚，对于一个事务来说不可能只执行其中的部分操作，这就是事务的原子性。
 
@@ -106,7 +106,7 @@ MYSQL传统关系数据库的ACID模型有以下特性
 - 6.记录amount（0）到undo log日志中，回滚的时候需要将数据刷新回来
 - 7.事务提交/回滚
 
-#### 持久性（Durability）原理
+#### 4.2 持久性（Durability）原理
 
 事务一旦提交，其所作做的修改会永久保存到数据库中，此时即使系统崩溃修改的数据也不会丢失。
  MySQL的数据存储，表数据是存放在磁盘上的，因此想要存取的时候都要经历磁盘IO,然而即使是使用SSD磁盘IO也是非常消耗性能的。 为此，为了提升性能InnoDB提供了缓冲池(Buffer Pool)，Buffer Pool中包含了磁盘数据页的映射，可以当做缓存来使用：
@@ -120,7 +120,7 @@ redo log来记录已成功提交事务的修改信息，并且会把redo log持�
 
 - ![img](https:////upload-images.jianshu.io/upload_images/14523959-7fa5e14d9cf54d66.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
 
-#### 隔离性（Isolation）原理
+#### 4.3 隔离性（Isolation）原理
 
 Mysql 隔离级别有以下四种（级别由低到高）：
 
@@ -142,24 +142,24 @@ Mysql 隔离级别有以下四种（级别由低到高）：
 - 不可重复读：事务中多次读取结果不一致，因为多次读取中间，其他事务修改并提交了数据（主要原因是修改）
 - 幻读：事务中多次范围读取结果不一致，因为多次读取中间，其他事务修改并提交了数据（主要原因是新增/删除）
 
-#### 读未提交（READ UNCOMMITED）
+#### 4.4 读未提交（READ UNCOMMITED）
 
 ![\color{red}{概念}](https://math.jianshu.com/math?formula=%5Ccolor%7Bred%7D%7B%E6%A6%82%E5%BF%B5%7D)：在该隔离级别下，事务中的修改即使还没提交，对其他事务是可见的。其他事务可以读取其未提交的数据，造成脏读。![\color{red}{原理}](https://math.jianshu.com/math?formula=%5Ccolor%7Bred%7D%7B%E5%8E%9F%E7%90%86%7D)：因为读不会加任何锁，所以写操作在读的过程中修改数据，所以会造成脏读。好处是可以提升并发处理性能，能做到读写并行。
 
 - ![img](https:////upload-images.jianshu.io/upload_images/14523959-ee501b6df11e4255.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
 
-#### 读提交（READ COMMITTED）
+#### 4.5 读提交（READ COMMITTED）
 
 ![\color{red}{概念}](https://math.jianshu.com/math?formula=%5Ccolor%7Bred%7D%7B%E6%A6%82%E5%BF%B5%7D)：在该隔离级别下，事务中的修改如果还没提交，对其他事务是不可见的。不会造成脏读，但是多次读取会造成数据不一致的情况，会有不可重复度的问题，例如：一个事务中两次读取，在这中间他事务进行了一个更新并提交，那么两次读取的内容会不一样。![\color{red}{原理}](https://math.jianshu.com/math?formula=%5Ccolor%7Bred%7D%7B%E5%8E%9F%E7%90%86%7D)：InnoDB在该隔离级别下读取数据不加锁而是使用了MVCC机制（详情如下）
 
-#### 可重复读  （REPEATABLE READ）
+#### 4.6 可重复读  （REPEATABLE READ）
 
 Mysql![\color{red}{默认}](https://math.jianshu.com/math?formula=%5Ccolor%7Bred%7D%7B%E9%BB%98%E8%AE%A4%7D)隔离级别。在一个事务内的多次读取的结果是一样的。这种级别下可以避免，脏读，不可重复读等查询问题，Innodb可以解决还可以解决幻读问题。Mysql 有两种机制可以达到这种隔离级别的效果，分别是采用读写锁和MVCC机制来实现。
 
 - 采用MVCC的实现：使用![\color{red}{快照读}](https://math.jianshu.com/math?formula=%5Ccolor%7Bred%7D%7B%E5%BF%AB%E7%85%A7%E8%AF%BB%7D) 的方式支持并行读写并行内部使用MVCC原理（后面介绍）
 - 采用锁的实现：使用![\color{red}{当前读}](https://math.jianshu.com/math?formula=%5Ccolor%7Bred%7D%7B%E5%BD%93%E5%89%8D%E8%AF%BB%7D) 对于SELECT... FOR UPDATE  ，SELECT ... LOCK IN SHARE MODE 等情况使用的是加锁解决机制（记录锁，[间隙锁](https://www.jianshu.com/p/d5b771e36533)等实现）
 
-#### 串行化（SERIALIZABLE）
+#### 4.7 串行化（SERIALIZABLE）
 
 - 该隔离级别理解起来最简单，实现也最单。在隔离级别下除了不会造成数据不一致问题，没其他优点。
 
