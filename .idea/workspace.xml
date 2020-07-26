@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d393194c-f25b-410c-80e3-ac3e0ef54a60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Front-end/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/MySQL/MySQL的事务.md" beforeDir="false" afterPath="$PROJECT_DIR$/database/MySQL/MySQL的事务.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,7 @@
       <workItem from="1594038226987" duration="6629000" />
       <workItem from="1594219977259" duration="16058000" />
       <workItem from="1594744120893" duration="36351000" />
-      <workItem from="1595604984203" duration="902000" />
+      <workItem from="1595604984203" duration="1199000" />
     </task>
     <task id="LOCAL-00001" summary="init redis01_基础数据结构.md">
       <created>1593531744469</created>
@@ -259,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595609580633</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="MySQL事务">
+      <created>1595775974418</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1595775974418</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +290,8 @@
     <MESSAGE value="linux总结" />
     <MESSAGE value="Arrays.asList()转化的List和ArrayList的本质区别" />
     <MESSAGE value="MySQL中的常识问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="MySQL中的常识问题" />
+    <MESSAGE value="MySQL事务" />
+    <option name="LAST_COMMIT_MESSAGE" value="MySQL事务" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="30" key="#Project_Structure" timestamp="1594221161453">
@@ -294,10 +302,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1594222212187" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1595609579017">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1595775972656">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1595609579017" />
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1595775972656" />
     <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1595605013777">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -326,10 +334,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="125" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594357900847" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1595609583005">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1595775976594">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1595609583005" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1595775976594" />
     <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1595604984259">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
