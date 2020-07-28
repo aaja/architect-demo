@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d393194c-f25b-410c-80e3-ac3e0ef54a60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/MySQL/MySQL事务隔离级别实现：MVCC与Read View.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/MySQL/MySQL的索引.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/MySQL/MySQL的索引之覆盖索引.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/MySQL/MySQL的索引原理.md" beforeDir="false" afterPath="$PROJECT_DIR$/database/MySQL/MySQL的索引原理.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,8 @@
       <workItem from="1594219977259" duration="16058000" />
       <workItem from="1594744120893" duration="36351000" />
       <workItem from="1595604984203" duration="4325000" />
-      <workItem from="1595909173953" duration="1014000" />
+      <workItem from="1595909173953" duration="4543000" />
+      <workItem from="1595951239260" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="init redis01_基础数据结构.md">
       <created>1593531744469</created>
@@ -289,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595909206312</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="MySQL中的事务">
+      <created>1595914330825</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1595914330825</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +324,8 @@
     <MESSAGE value="MySQL事务" />
     <MESSAGE value="init front-end file" />
     <MESSAGE value="MySQL中的锁总结" />
-    <option name="LAST_COMMIT_MESSAGE" value="MySQL中的锁总结" />
+    <MESSAGE value="MySQL中的事务" />
+    <option name="LAST_COMMIT_MESSAGE" value="MySQL中的事务" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="30" key="#Project_Structure" timestamp="1594221161453">
@@ -327,14 +336,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1594222212187" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1595909204448">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1595914329438">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1595909204448" />
-    <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1595781678798">
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1595914329438" />
+    <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1595922434665">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="299" y="130" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1595781678798" />
+    <state x="299" y="130" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1595922434665" />
     <state width="1323" height="205" key="GridCell.Tab.0.bottom" timestamp="1595581046575">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -359,10 +368,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="125" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594357900847" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1595909208399">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1595914333091">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1595909208399" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1595914333091" />
     <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1595604984259">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
