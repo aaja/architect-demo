@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d393194c-f25b-410c-80e3-ac3e0ef54a60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/MySQL/MySQL中7种锁的总结.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/MySQL/MySQL事务隔离级别实现：MVCC与Read View.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/MySQL/MySQL的索引.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +105,7 @@
       <workItem from="1594219977259" duration="16058000" />
       <workItem from="1594744120893" duration="36351000" />
       <workItem from="1595604984203" duration="4325000" />
+      <workItem from="1595909173953" duration="1014000" />
     </task>
     <task id="LOCAL-00001" summary="init redis01_基础数据结构.md">
       <created>1593531744469</created>
@@ -280,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595781365821</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="MySQL中的锁总结">
+      <created>1595909206312</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1595909206312</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +315,8 @@
     <MESSAGE value="MySQL中的常识问题" />
     <MESSAGE value="MySQL事务" />
     <MESSAGE value="init front-end file" />
-    <option name="LAST_COMMIT_MESSAGE" value="init front-end file" />
+    <MESSAGE value="MySQL中的锁总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="MySQL中的锁总结" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="30" key="#Project_Structure" timestamp="1594221161453">
@@ -317,10 +327,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1594222212187" />
-    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1595781363725">
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1595909204448">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1595781363725" />
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1595909204448" />
     <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1595781678798">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -349,10 +359,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="125" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594357900847" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1595781370862">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1595909208399">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1595781370862" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1595909208399" />
     <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1595604984259">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
