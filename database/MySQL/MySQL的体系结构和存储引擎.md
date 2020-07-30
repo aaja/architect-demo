@@ -122,20 +122,20 @@
 
 下面是MySQL8.0默认支持的存储引擎:
 
-mysql> SHOW ENGINES;
-+--------------------+---------+--------------------------------------------------------------------+
-| Engine             					| Support | Transactions | XA  | Savepoints |
-+--------------------+---------+--------------------------------------------------------------------+
-| CSV                   					| YES         | NO           	 | NO  | NO              |
-| MRG_MyISAM 					| YES         | NO           	 | NO  | NO         	 |
-| MEMORY         					| YES  	   | NO          	  | NO  | NO         	 |
-| Aria                 					  | YES  	   | NO           	 | NO  | NO        	 |
-| MyISAM          					  | YES     	| NO            	| NO  | NO        	 |
-| SEQUENCE      					 | YES         | YES          	 | NO  | YES       	  |
-| InnoDB             					|DEFAULT| YES          	 | YES | YES      	    |
-| PERFORMANCE_SCHEMA  | YES         | NO          	  | NO  | NO        	 |
-+--------------------+---------+--------------------------------------------------------------------+
-8 rows in set (0.06 sec)
+> mysql> SHOW ENGINES;
+> +--------------------+---------+--------------------------------------------------------------------+
+> | Engine             					| Support | Transactions | XA  | Savepoints |
+> +--------------------+---------+--------------------------------------------------------------------+
+> | CSV                   					| YES         | NO           	 | NO  | NO              |
+> | MRG_MyISAM 					| YES         | NO           	 | NO  | NO         	 |
+> | MEMORY         					| YES  	   | NO          	  | NO  | NO         	 |
+> | Aria                 					  | YES  	   | NO           	 | NO  | NO        	 |
+> | MyISAM          					  | YES     	| NO            	| NO  | NO        	 |
+> | SEQUENCE      					 | YES         | YES          	 | NO  | YES       	  |
+> | InnoDB             					|DEFAULT| YES          	 | YES | YES      	    |
+> | PERFORMANCE_SCHEMA  | YES         | NO          	  | NO  | NO        	 |
+> +--------------------+---------+--------------------------------------------------------------------+
+> 8 rows in set (0.06 sec)
 
 ## 3 各存储引擎之间的比较
 
