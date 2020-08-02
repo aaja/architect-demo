@@ -288,6 +288,20 @@ mysql> SHOW VARIABLES LIKE 'innodb_log_buffer_size';
 
 ##### 1.3.4 异步IO
 
+```sql
+mysql> SHOW VARIABLES LIKE 'innodb_use_native_aio';
++-----------------------+-------+
+| Variable_name         | Value |
++-----------------------+-------+
+| innodb_use_native_aio | ON    |
++-----------------------+-------+
+1 row in set (0.04 sec)
+```
+
 ##### 1.3.5 刷新领接页
+
+```
+innodb_ flush_ neighbors
+```
 
 #### 1.4 启动、关闭与恢复
