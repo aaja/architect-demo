@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d393194c-f25b-410c-80e3-ac3e0ef54a60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/MySQL/MySQL中事务的隔离级别是怎么实现的.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/MySQL/MySQL的事务隔离级别实现：MVCC与Read View.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +110,8 @@
       <workItem from="1596038949042" duration="2932000" />
       <workItem from="1596121251450" duration="165000" />
       <workItem from="1596121729969" duration="799000" />
+      <workItem from="1596377114284" duration="430000" />
+      <workItem from="1596468912314" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="init redis01_基础数据结构.md">
       <created>1593531744469</created>
@@ -354,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596126380243</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="MySQL中InnoDB引擎的一点总结">
+      <created>1596377413385</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1596377413385</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,14 +408,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1594222212187" />
-    <state x="232" y="0" key="CommitChangelistDialog2" timestamp="1596126378005">
+    <state x="232" y="0" key="CommitChangelistDialog2" timestamp="1596377409294">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="232" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1596126378005" />
-    <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1596377124467">
+    <state x="232" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1596377409294" />
+    <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1596468929485">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="299" y="130" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1596377124467" />
+    <state x="299" y="130" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1596468929485" />
     <state width="1323" height="205" key="GridCell.Tab.0.bottom" timestamp="1595581046575">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -429,10 +440,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="125" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594357900847" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1596126407087">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1596377417248">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1596126407087" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1596377417248" />
     <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1595604984259">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
