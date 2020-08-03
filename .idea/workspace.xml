@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d393194c-f25b-410c-80e3-ac3e0ef54a60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/MySQL/自旋锁的一点理解.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/MySQL/MySQL中事务的隔离级别是怎么实现的.md" beforeDir="false" afterPath="$PROJECT_DIR$/database/MySQL/MySQL中事务的隔离级别是怎么实现的.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1596121251450" duration="165000" />
       <workItem from="1596121729969" duration="799000" />
       <workItem from="1596377114284" duration="430000" />
-      <workItem from="1596468912314" duration="1454000" />
+      <workItem from="1596468912314" duration="2018000" />
     </task>
     <task id="LOCAL-00001" summary="init redis01_基础数据结构.md">
       <created>1593531744469</created>
@@ -371,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596469653949</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="自旋锁">
+      <created>1596470472528</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1596470472528</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +386,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="init redis01_基础数据结构.md" />
     <MESSAGE value="创建线程的几种方式" />
     <MESSAGE value="init demo code" />
     <MESSAGE value="kafka总结" />
@@ -404,7 +410,8 @@
     <MESSAGE value="数据库" />
     <MESSAGE value="MySQL中InnoDB引擎的一点总结" />
     <MESSAGE value="事务" />
-    <option name="LAST_COMMIT_MESSAGE" value="事务" />
+    <MESSAGE value="自旋锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="自旋锁" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="30" key="#Project_Structure" timestamp="1594221161453">
@@ -415,10 +422,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1594222212187" />
-    <state x="232" y="0" key="CommitChangelistDialog2" timestamp="1596469649991">
+    <state x="232" y="0" key="CommitChangelistDialog2" timestamp="1596471068980">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="232" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1596469649991" />
+    <state x="232" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1596471068980" />
     <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1596468929485">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -447,10 +454,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="125" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594357900847" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1596469657614">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1596470474599">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1596469657614" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1596470474599" />
     <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1595604984259">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
