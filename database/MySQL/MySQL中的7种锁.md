@@ -5,7 +5,7 @@
 ​	 行锁是对索引记录的锁定，行锁始终锁定索引记录。即使没有索引的表，`InnoDB`也会创建一个隐藏的聚集索引，并将该索引用于行锁。示例如下:
 
 ```sql
-SELECT c1 FROM t WHERE c1 = 10 FOR UPDATE
+SELECT c1 FROM t WHERE c1 = 10 FOR UPDATE; 
 ```
 
 #### 1.1 FOR UPDATE
