@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d393194c-f25b-410c-80e3-ac3e0ef54a60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/MySQL/自旋锁的一点理解.md" beforeDir="false" afterPath="$PROJECT_DIR$/database/MySQL/自旋锁的一点理解.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/MySQL/MySQL中drop、truncate和delete的区别.md" beforeDir="false" afterPath="$PROJECT_DIR$/database/MySQL/MySQL中drop、truncate和delete的区别.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1596121251450" duration="165000" />
       <workItem from="1596121729969" duration="799000" />
       <workItem from="1596377114284" duration="430000" />
-      <workItem from="1596468912314" duration="4305000" />
+      <workItem from="1596468912314" duration="5001000" />
     </task>
     <task id="LOCAL-00001" summary="init redis01_基础数据结构.md">
       <created>1593531744469</created>
@@ -392,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596637077890</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="mvcc (Mutil-Version Concurrency Control)">
+      <created>1596648049703</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1596648049703</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,10 +443,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1594222212187" />
-    <state x="232" y="0" key="CommitChangelistDialog2" timestamp="1596637073854">
+    <state x="232" y="0" key="CommitChangelistDialog2" timestamp="1596648047694">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="232" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1596637073854" />
+    <state x="232" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1596648047694" />
     <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1596468929485">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -468,10 +475,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="125" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594357900847" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1596637080298">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1596648051994">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1596637080298" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1596648051994" />
     <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1595604984259">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

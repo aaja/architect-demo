@@ -14,7 +14,7 @@
 
 （4）应用范围。
 
-  TRUNCATE 只能对TABLE；     DELETE可以是table和view
+  TRUNCATE 只能对TABLE； DELETE可以是table和view
 
 （5）TRUNCATE 和DELETE只删除数据， DROP则删除整个表（结构和数据）。
 
