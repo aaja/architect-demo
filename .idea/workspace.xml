@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d393194c-f25b-410c-80e3-ac3e0ef54a60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/MySQL/如何获取 MySQL innodb 的 B+tree 的高度.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/MySQL/MySQL中drop、truncate和delete的区别.md" beforeDir="false" afterPath="$PROJECT_DIR$/database/MySQL/MySQL中drop、truncate和delete的区别.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../myblog-picture" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/database/MySQL" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.29037037" />
@@ -62,11 +62,11 @@
       <recent name="com.aaja.kafka.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\idea-workspace-personal\architect-demo\database\MySQL" />
       <recent name="E:\workspace\idea-workspace-personal\architect-demo\docs\demo_02_distributed\transaction" />
       <recent name="E:\workspace\idea-workspace-personal\architect-demo\code\jdk-demo\src\main\java\com\aaja\demo" />
       <recent name="E:\workspace\idea-workspace-personal\architect-demo\algorithm" />
       <recent name="E:\workspace\idea-workspace-personal\architect-demo\jdk\jdk7及以下" />
-      <recent name="E:\workspace\idea-workspace-personal\architect-demo\jdk\jdk14" />
     </key>
   </component>
   <component name="RunManager">
@@ -110,7 +110,7 @@
       <workItem from="1596121251450" duration="165000" />
       <workItem from="1596121729969" duration="799000" />
       <workItem from="1596377114284" duration="430000" />
-      <workItem from="1596468912314" duration="5001000" />
+      <workItem from="1596468912314" duration="6320000" />
     </task>
     <task id="LOCAL-00001" summary="init redis01_基础数据结构.md">
       <created>1593531744469</created>
@@ -399,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596648049703</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="mvcc (Mutil-Version Concurrency Control)">
+      <created>1596735336734</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1596735336734</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,10 +450,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1594222212187" />
-    <state x="232" y="0" key="CommitChangelistDialog2" timestamp="1596648047694">
+    <state x="232" y="0" key="CommitChangelistDialog2" timestamp="1596735333098">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="232" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1596648047694" />
+    <state x="232" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1596735333098" />
     <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1596468929485">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -475,10 +482,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="125" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594357900847" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1596648051994">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1596735339551">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1596648051994" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1596735339551" />
     <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1595604984259">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
