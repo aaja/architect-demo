@@ -110,5 +110,5 @@ $ hexdump -s 81984 -n 10 ./user.ibd
 
 ## 其它工具
 
-还有一个小工具可以查看。InnoDB 表空间可视化工具innodb_ruby
+还有一个小工具可以查看。InnoDB 表空间可视化工具innodb_ruby:
 https://www.cnblogs.com/cnzeno/p/6322842.html
