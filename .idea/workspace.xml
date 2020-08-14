@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d393194c-f25b-410c-80e3-ac3e0ef54a60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/jdk-demo/src/main/java/com/aaja/demo/DemoClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/demo_03_important/01_redis/Redis持久化的两种方式.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/jdk-demo/src/main/java/com/aaja/demo/DemoClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/jdk-demo/src/main/java/com/aaja/demo/DemoClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/demo_03_important/01_redis" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.29037037" />
@@ -62,11 +63,11 @@
       <recent name="com.aaja.kafka.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\idea-workspace-personal\architect-demo\docs\demo_03_important\01_redis" />
       <recent name="E:\workspace\idea-workspace-personal\architect-demo\database\MySQL" />
       <recent name="E:\workspace\idea-workspace-personal\architect-demo\docs\demo_02_distributed\transaction" />
       <recent name="E:\workspace\idea-workspace-personal\architect-demo\code\jdk-demo\src\main\java\com\aaja\demo" />
       <recent name="E:\workspace\idea-workspace-personal\architect-demo\algorithm" />
-      <recent name="E:\workspace\idea-workspace-personal\architect-demo\jdk\jdk7及以下" />
     </key>
   </component>
   <component name="RunManager">
@@ -111,7 +112,8 @@
       <workItem from="1596121729969" duration="799000" />
       <workItem from="1596377114284" duration="430000" />
       <workItem from="1596468912314" duration="8927000" />
-      <workItem from="1597210350865" duration="1987000" />
+      <workItem from="1597210350865" duration="2008000" />
+      <workItem from="1597388284308" duration="493000" />
     </task>
     <task id="LOCAL-00001" summary="init redis01_基础数据结构.md">
       <created>1593531744469</created>
@@ -421,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597075839777</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="update project">
+      <created>1597215384905</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1597215384905</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +438,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="kafka总结" />
     <MESSAGE value="kafka 基本使用总结" />
     <MESSAGE value="vue打包出现空白的index.html解决办法" />
     <MESSAGE value="分布式CAP定律" />
@@ -454,7 +462,8 @@
     <MESSAGE value="自旋锁" />
     <MESSAGE value="mvcc" />
     <MESSAGE value="mvcc (Mutil-Version Concurrency Control)" />
-    <option name="LAST_COMMIT_MESSAGE" value="mvcc (Mutil-Version Concurrency Control)" />
+    <MESSAGE value="update project" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="30" key="#Project_Structure" timestamp="1594221161453">
@@ -465,14 +474,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1594222212187" />
-    <state x="232" y="0" key="CommitChangelistDialog2" timestamp="1597075835296">
+    <state x="232" y="0" key="CommitChangelistDialog2" timestamp="1597215382566">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="232" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1597075835296" />
-    <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1597110881885">
+    <state x="232" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1597215382566" />
+    <state x="299" y="130" key="FileChooserDialogImpl" timestamp="1597388300174">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="299" y="130" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1597110881885" />
+    <state x="299" y="130" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1597388300174" />
     <state width="1323" height="205" key="GridCell.Tab.0.bottom" timestamp="1595581046575">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -497,10 +506,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="125" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1597110694484" />
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1597075844460">
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1597215387058">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1597075844460" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1597215387058" />
     <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1595604984259">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

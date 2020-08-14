@@ -8,7 +8,7 @@ package com.aaja.demo;
 public class DemoClass {
     public static void main(String[] args) {
         Base base= new Child();//向上转型后无法访问子类特有的属性
-        base.methodB();
+//        base.methodB(); //这行代码会报错
     }
 }
 
