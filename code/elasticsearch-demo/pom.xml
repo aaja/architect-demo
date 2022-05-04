@@ -22,7 +22,7 @@
         </plugins>
     </build>
     <properties>
-        <es.version>6.3.2</es.version>
+        <es.version>8.1.3</es.version>
     </properties>
 
     <artifactId>elasticsearch-demo</artifactId>
