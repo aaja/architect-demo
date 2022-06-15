@@ -22,7 +22,7 @@
         </plugins>
     </build>
     <properties>
-        <es.version>8.1.3</es.version>
+        <es.version>8.2.2</es.version>
     </properties>
 
     <artifactId>elasticsearch-demo</artifactId>
@@ -39,17 +39,17 @@
         <dependency>
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>
-            <version>8.1.3</version>
+            <version>8.2.2</version>
         </dependency>
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>elasticsearch-rest-high-level-client</artifactId>
-            <version>8.1.3</version>
+            <version>8.2.2</version>
         </dependency>
         <dependency>
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch-x-content</artifactId>
-            <version>8.1.3</version>
+            <version>8.2.2</version>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
@@ -72,7 +72,7 @@
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
             <artifactId>elasticsearch-rest-high-level-client</artifactId>
-            <version>7.3.2</version>
+            <version>8.2.2</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
