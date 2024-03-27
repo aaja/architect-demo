@@ -11,7 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <es.version>8.10.3</es.version>
+        <es.version>8.13.0</es.version>
     </properties>
 
     <artifactId>kafka-demo</artifactId>
