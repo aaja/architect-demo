@@ -39,7 +39,7 @@
         <dependency>
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch</artifactId>
-            <version>8.10.3</version>
+            <version>8.13.0</version>
         </dependency>
         <dependency>
             <groupId>org.elasticsearch.client</groupId>
